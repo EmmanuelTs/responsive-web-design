@@ -1,0 +1,31 @@
+@media screen and (max-width: 500px) {
+    body {
+        background-color: red;
+        font-size: 15px
+    }
+    #medium  { position: relative;}
+    #large {position: relative;}
+    #small {position: relative;}
+    }
+
+
+
+   @media screen and (min-width:500px) and (max-width: 768px) {
+        body {
+            background-color: green;
+            font-size: 20px
+        }
+        #small { float:left; display:inline; width: 66%;margin: 15px;}
+        #medium {float:left; display:inline; width: 33%;margin: 15px;}
+        #large {float:bottom; display:inline; width: 100%;margin: 15px;}
+    }
+
+    @media screen and (min-width: 768px) {
+        body {
+            background-color: blue;
+            font-size: 25px
+        }
+        #small { float:left;  width: 33%;}
+        #medium{position: relative; float:left; width: 33%;}
+        #large {position: relative; float:left; width: 33%;}
+    }
