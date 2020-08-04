@@ -1,0 +1,29 @@
+@media screen and (max-width: 500px) {
+    body {
+        background-color: indianred;
+        font-size: 15px
+    }
+    div.medium {style ="z-index: 3; position: absolute; top: 0px; left: 0px;}
+    div.large {style="z-index: 2; position: absolute; top: 0px; left: 0px;}
+    div small {style="z-index: 1; position: absolute; top: 0px; left: 0px;}
+    }
+
+    @media screen and (min-width:500px) and (max-width: 768px) {
+        body {
+            background-color: lightseagreen;
+            font-size: 20px
+        }
+        div.small {float:left; display:inline; width: 66%;margin: 15px;}
+        div.medium {float:left; display:inline; width: 33%;margin: 15px;}
+        div.large {float:bottom; display:inline-grid; width: 100%;margin: 15px;}
+    }
+
+    @media screen and (min-width: 768px) {
+        body {
+            background-color: lightskyblue;
+            font-size: 25px
+        }
+        div.small {float:left; display:inline; width: 30%;margin: 15px;}
+        div.medium{float:left; display:inline; width: 30%;margin: 15px;}
+        div.large {float:left; display:inline; width: 30%;margin: 15px;}
+    }
